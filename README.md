@@ -1,5 +1,5 @@
 # Determining Real Exchange Rate as a Percentage of Deviation of Its Trend
-This is a tutorial on how to Calculate Real Exchange Rate in Stata
+This is a tutorial on how to Calculate Real Exchange Rate in Stata, as a percentage deviation from its trend
 
 The Real Excahnge Rate is Determined from the norminal excange rate, by adjusting for relative consumer prices
 
