@@ -20,4 +20,16 @@ The data used in this study was gathered from the IMF’s International Financia
     twoway (line REER Time) (line Trend Time)
     
     
-Files in the Analysis 
+## Files in the Analysis 
+1. REER.xlsx    -------------------This is the original data used for analysis                      
+2. REER_Adj Calculation.log--------The STATA .log file of codes used in the analysis
+3. Calculate REER_Adj.do...........The STATA .log file of codes used in the analysis
+4. REER_Adj Data Output.dta........The Data Output 
+
+## Original Data 
+Original Data Used in the analysis is shown in figure below
+![image](https://user-images.githubusercontent.com/74916045/183051914-577ffb41-f082-4a91-8461-a1ee50719285.png)
+##Real Exchange Rate Output
+Real exchange output is shown in figure below
+![image](https://user-images.githubusercontent.com/74916045/183052201-2880bc19-ae50-4ae2-ac6c-97327e2dc88f.png)
+
