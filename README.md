@@ -28,8 +28,12 @@ The data used in this study was gathered from the IMF’s International Financia
 
 ## Original Data 
 Original Data Used in the analysis is shown in figure below
+
 ![image](https://user-images.githubusercontent.com/74916045/183051914-577ffb41-f082-4a91-8461-a1ee50719285.png)
-##Real Exchange Rate Output
+
+## Real Exchange Rate Output
+
 Real exchange output is shown in figure below
+
 ![image](https://user-images.githubusercontent.com/74916045/183052201-2880bc19-ae50-4ae2-ac6c-97327e2dc88f.png)
 
