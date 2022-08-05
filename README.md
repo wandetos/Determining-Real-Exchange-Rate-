@@ -23,7 +23,7 @@ The data used in this study was gathered from the IMF’s International Financia
 ## Files in the Analysis 
 1. REER.xlsx    ------------------- This is the original data used for analysis                      
 2. REER_Adj Calculation.log-------- The STATA .log file of codes used in the analysis
-3. Calculate REER_Adj.do........... The STATA .log file of codes used in the analysis
+3. Calculate REER_Adj.do........... The STATA .do file of codes used in the analysis
 4. REER_Adj Data Output.dta........ The Data Output 
 
 ## Original Data 
