@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  C:\Users\sam\Desktop\REER_Adj Calculation.log
+  log type:  text
+ opened on:   4 Aug 2022, 20:20:33
+
+. do "C:\Users\sam\Desktop\Calculate REER_Adj.do"
+
+. import excel "C:\Users\sam\Desktop\REER.xlsx", sheet("Sheet1") firstrow
+
+. gen Time=_n
+
+. regress REER Time
+
+      Source |       SS           df       MS      Number of obs   =       110
+-------------+----------------------------------   F(1, 108)       =    178.11
+       Model |  5702.22596         1  5702.22596   Prob > F        =    0.0000
+    Residual |  3457.69292       108  32.0156751   R-squared       =    0.6225
+-------------+----------------------------------   Adj R-squared   =    0.6190
+       Total |  9159.91888       109   84.035953   Root MSE        =    5.6582
+
+------------------------------------------------------------------------------
+        REER |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+        Time |   .2267471   .0169903    13.35   0.000     .1930694    .2604248
+       _cons |   108.1174   1.086383    99.52   0.000      105.964    110.2708
+------------------------------------------------------------------------------
+
+. predict Trend
+(option xb assumed; fitted values)
+
+. gen REER_Adj = ((REER-Trend)/Trend)*100
+
+. twoway (line REER Time) (line Trend Time)
+
+. 
+end of do-file
+
+. log close
+      name:  <unnamed>
+       log:  C:\Users\sam\Desktop\REER_Adj Calculation.log
+  log type:  text
+ closed on:   4 Aug 2022, 20:21:07
+-------------------------------------------------------------------------------
